@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+[class*="col-"]{
+    background-color: chartreuse;
+    border: 1px solid blue ;
+    height: 200px;
+    line-height: 200px;
+}
+
+.row{
+    text-align: center;
+    
+}
+
+footer .col-6 [class*="col-"]{
+    background-color: yellow;
+    height: 100%;
+}
+
+footer .col-6{
+    padding: 5px;
+}
